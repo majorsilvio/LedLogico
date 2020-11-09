@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Led Logico</title>
+	<meta name="keywords" content="HTML, CSS, JavaScript">
+	<link rel="icon" type="image/png" href="/img/icon.png"/>
+	<link rel="stylesheet" type="text/css" href="styles">
+	<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@900&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div id="form">
+		<form  method="POST" action="escolhaNivel">
+			<label>Nível atual</label>
+		</br>
+			<input id="input" type="number" min="0" max="10" value="__nivel__" name="nv" required >
+		</form>
+	</div>
+	
+
+	<div class="grid">
+		__elements__
+	</div>
+	<div class="footer">
+		<div class="footer-item">
+			<a href="reset"><img type="image" src="img/reload.png" alt="Submit" width="50" height="50"></a>
+			
+		</div>
+		<div class="footer-item">
+			__count__
+		</div>
+		<div class="footer-item">
+			<a href="/">Sair</a>
+			
+		</div>
+
+		
+	</div>
+
+	<script>
+		document.getElementById("input").addEventListener("Keypress", function(e){
+			if (e.which == 13) {
+				document.getElementByTagName("form").submit()
+				
+			}
+		})
+
+	</script>
+</body>
+</html>

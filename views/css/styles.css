@@ -1,0 +1,186 @@
+body{
+	height: 100%;
+	background: url(img/bg.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+
+}
+
+a{
+	text-decoration: none;
+	color:black;
+}
+.menu{
+	height: 100%; /*altura*/
+	display: grid;
+	grid-template-columns: auto;
+	margin: auto;
+	margin-top: 10vh;
+	text-align: center;
+}
+
+.logo{
+	font-size: 20vh;
+	text-align: center;
+	color: #FF69B4;
+	font-family: 'Big Shoulders Display', cursive;
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: red;
+	text-shadow: 0 0 20px red;
+}
+.links{
+	padding: 5vh;
+	display: grid;
+	grid-template-columns: auto;
+}
+.link{
+	color: #000000;   /* Aqui entraria preto para destacar do fundo */
+	padding: 3vh;
+	font-size: 10vh;
+  text-decoration: none;
+  font-family: 'Big Shoulders Display', cursive;
+}
+.footer{
+    height: 15vh;
+    display:flex;
+    justify-content: space-between;
+}
+.footer-item{
+	margin: 4vh;
+	font-size: 10vh;
+	font-family: 'Big Shoulders Display', cursive;
+}
+
+.grid {
+	margin: auto;
+	padding: 5.5vh;
+	display: grid;
+	grid-template-columns: auto auto auto auto auto;
+	width: 60vh;
+	height: 60vh;
+}
+.grid-item {
+	border-radius: 50%; 
+	border: 1px solid rgba(0, 0, 0, 0.8); /*borda*/
+	height: calc(40vh / 5); /*altura*/
+	width: calc(40vh / 5); 
+	margin: auto;
+	margin-top: 2vh;
+	cursor: pointer;
+	
+}
+
+.grid-item:hover{ /*mexe na cor das luzinhas*/
+	background-color: green; /*quando passa o mouse em cima fica verde*/
+}
+.lit{
+  background-color: yellow; /*luz acesa cor amarela*/
+
+}
+.out{
+  background-color: rgb(0, 0, 0); /*luz apagada cor preta*/
+                        
+}
+
+.pic {
+
+width: 180px;
+border-radius: 100%;
+}
+
+/*Sobre*/
+
+.sobreBody {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  figcaption {
+    margin: 0;
+    padding: 15px;
+    box-sizing: border-box;
+  }
+
+
+  .figure, .descSobre {
+    margin: 2%;
+    border: 5px solid black;
+    padding: 15px;
+  }
+
+  .descSobre{
+    color:white;
+  }
+
+  .descSobre h1 , .figure h1{
+    text-align: center;
+    font-size: 40px;  
+  }
+
+  .descSobre h2 , .figure h2{
+    padding-top: 25px;
+    font-size: 35px;
+  }
+
+  .figure h3 {
+    font-size: 22px;
+  }
+
+  .decSobre h1, .figure h1 ,.decSobre h2 ,.figure h2,.decSobre h3 ,.figure h3 {
+    color: white;
+    border: black;
+    text-shadow: 0 0 6px black;
+  }
+
+  #sobre-projeto {
+    font-size: 25px;
+    text-align: justify;
+  }
+
+  .pic {
+    width: 200px;
+    height: 200px;
+    border-radius:20%;
+  }
+
+  .left {
+    float: left;
+    padding-right: 10px;
+  }
+
+  .right {
+    float: right;
+    padding-left: 10px;
+  }
+
+  .h-left {
+    text-align: left;
+  }
+
+  .h-right {
+    text-align: right;
+  }
+
+ #form {
+    text-align: center;
+    width: 30vw;
+    margin: auto;
+
+ }
+ #input {
+    margin: auto; 
+    text-align: center;
+    font-size: 3vh;
+    border-radius: 5px;
+    width: 10vw;
+ }
+
+label {
+  font-family: 'Big Shoulders Display', cursive;
+  font-size: 5vh;
+}
+
+
+
